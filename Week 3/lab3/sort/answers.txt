@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It sorts faster than sort3 the 50,000 sorted numbers
+
+sort2 uses: Merge Sort
+
+How do you know?: It is the quickest to sort 50,000 random numbers.
+
+sort3 uses: Selection Sort
+
+How do you know?: It is the only one remaining
