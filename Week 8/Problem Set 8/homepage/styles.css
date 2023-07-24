@@ -1,0 +1,83 @@
+:root{
+    --text: rgb(253, 252, 252);
+    --background: rgb(16, 16, 16);
+    --primary: rgb(178, 114, 10);
+    --secondary: rgb(2, 14, 34);
+    --accent: rgb(45, 114, 224);
+}
+
+body{
+    background-color: var(--background);
+    font-family: 'Monserat', sans-serif;
+    color: var(--text);
+}
+
+h1{
+    font-weight: bolder;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.hero{
+    background-image: url("home_background.png");
+    background-size: cover;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+footer{
+    position: auto;
+    height: 5vh;
+    top: 20px;
+    bottom: 20px;
+    width: 100vw;
+    font-size: small;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about{
+    margin: 20px;
+    font-size: 20px;
+    max-width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align: left;
+}
+
+.center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center img{
+    max-width: 100%;
+    max-height: 50vh;
+}
+
+
+.card-body{
+    background-color: var(--accent);
+}
+
+.col{
+    width: 20vw;
+}
+
+.skills{
+    height: 80vh;
+    width: 100vw;
+}
