@@ -1,0 +1,4 @@
+For calculating the aura, you can average the energy, valence, and danceability for all the songs in the top 100 of the user:
+    SELECT AVG(energy, velence, danceability) FROM songs
+
+The way I calculated the aura may not be representative if the user listens to the top 50 of the songs way more then the other 50. A solution is to calculate the weighted average of all the songs with the number of replays for each song.
